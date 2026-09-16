@@ -1,0 +1,12 @@
+[project]
+name = "banco-async-api"
+version = "1.0.0"
+description = "API bancária assíncrona com FastAPI e SQLAlchemy 2.0"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 110
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
