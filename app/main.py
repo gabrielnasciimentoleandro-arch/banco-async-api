@@ -41,7 +41,10 @@ app = FastAPI(
     description=DESCRICAO,
     lifespan=lifespan,
     docs_url=None,  # Swagger servido localmente em /docs (sem depender de CDN)
-    contact={"name": "Gabriel Nascimento Leandro", "url": "https://github.com/gabrielnasciimentoleandro-arch"},
+      contact={
+        "name": "Gabriel Nascimento Leandro",
+        "url": "https://github.com/gabrielnasciimentoleandro-arch",
+    },
     license_info={"name": "MIT"},
 )
 
